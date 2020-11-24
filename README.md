@@ -5,6 +5,7 @@ reaching goals and being efficient.
 
 ![Structure of an ML Pipeline](https://miro.medium.com/max/876/1*fKlYtetGpfWDw0x7rdO6jQ.png)
 
+```
 ^[[01;34m.^[[00m
 ├── README.md
 └── ^[[01;34mproject^[[00m
@@ -19,3 +20,4 @@ reaching goals and being efficient.
         ├── ^[[01;34mdata^[[00m
         ├── ^[[01;34mfeatures^[[00m
         └── ^[[01;34mmodel^[[00m
+```
