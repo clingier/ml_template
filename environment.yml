@@ -2,17 +2,28 @@ name: project
 channels:
         - https://conda.anaconda.org/menpo
         - conda-forge
+        - pytorch
 dependencies:
         - python=3.6
+        # Scipy Stack
         - numpy
-        - matplotlib
+        - pandas
         - jupyter
         - opencv3
         - scikit-learn
         - scipy
-        - h5py
-        - seaborn
-        - pandas
+        #- h5py
+
+        # DeepL
         - tensorflow
+        - pytorch
+
+        # EDA
+        - pandas-profiling
+
+        # Plotting
+        - seaborn
+        - matplotlib
+
         - pip:
                 - git+https://github.com/fchollet/keras.git
